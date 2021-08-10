@@ -4,6 +4,8 @@ phases:
   install:
     commands:
         - python -m pip install Flask
+        - python -m pip install certifi
+        - python -m pip install urllib3[secure]
   build:
     commands:
       - echo Build started on `date`
