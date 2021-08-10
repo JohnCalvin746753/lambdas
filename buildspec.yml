@@ -1,5 +1,8 @@
 version: 0.2
 
+runtime-versions: 
+	python: latest
+
 phases:
   install:
     commands:
